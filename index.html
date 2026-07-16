@@ -2871,7 +2871,7 @@
 
     <!-- Tab 1: Laparoscopic Endometrial Cystectomy -->
 <div id="cystectomy-tab" class="cs_surgical_tab_panel active">
-  <div class="row align-items-stretch g-5">
+  <div class="row align-items-stretch g-5 d-none d-lg-flex">
     <!-- Left Side: Image -->
     <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
       <div style="border-radius: 24px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.15); height: 100%; background: #2a1a3a; display: flex; align-items: center; justify-content: center;">
@@ -2910,42 +2910,96 @@
       </div>
     </div>
   </div>
+
+  <div class="row align-items-stretch g-4 d-flex d-lg-none">
+
+    <!-- Left Content with Image Background (mobile-friendly: no stretch, reduced bottom padding) -->
+    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+      <div
+        class="bg-image-responsive-oophorectomy"
+        style="background: linear-gradient(145deg, rgba(61,40,81,0.70) 0%, rgba(98,64,130,0.75) 100%), url('assets/images/laparoscopicslide1.png'); border-radius:24px; padding:45px; position:relative; overflow:hidden; height:100%; background-repeat: no-repeat;">
+
+        <!-- decorative circles -->
+        <div
+          style="position:absolute;top:-40px;right:-40px;width:180px;height:180px;border-radius:50%;background:rgba(255,255,255,.04);">
+        </div>
+        <div
+          style="position:absolute;bottom:-40px;left:-40px;width:140px;height:140px;border-radius:50%;background:rgba(122,80,162,.12);">
+        </div>
+
+        <!-- icon -->
+        <div
+          style="width:72px;height:72px;border-radius:18px;background:#7A50A2;display:flex;align-items:center;justify-content:center;margin-bottom:25px;box-shadow:0 10px 30px rgba(122,80,162,.35);">
+         <i class="fa-solid fa-scissors" style="color: #fff; font-size: 30px;"></i>
+        </div>
+
+        <!-- badge -->
+        <span
+          style="display:inline-block;background:rgba(255,255,255,.12);color:#fff;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:6px 16px;border-radius:30px;margin-bottom:18px;">
+          Minimally Invasive
+        </span>
+
+        <!-- heading -->
+        <h3
+          style="color:#fff;font-size:30px;font-weight:800;line-height:1.3;margin-bottom:22px;">
+         Laparoscopic Endometrial Cystectom
+        </h3>
+
+        <!-- text -->
+        <p
+          style="color:rgba(255,255,255,.88);font-size:16px;line-height:1.5;margin-bottom:0;">
+          This minimally invasive procedure involves the surgical removal of ovarian endometriomas (chocolate cysts) caused by endometriosis while preserving as much healthy ovarian tissue as possible. The procedure helps relieve pelvic pain, reduce the risk of cyst recurrence, and may improve fertility outcomes in selected patients. The laparoscopic approach offers smaller incisions, reduced postoperative discomfort, and a faster recovery compared to open surgery.
+        </p>
+
+      </div>
+    </div>
+
+    
+
+  </div>
+
+
 </div>  
 
      <!-- Tab 2: Laparoscopic Oophorectomy -->
 <div id="oophorectomy-tab" class="cs_surgical_tab_panel">
   <div class="row align-items-stretch g-4">
 
-    <!-- Left Content with Image Background -->
+    <!-- Left Content with Image Background (mobile-friendly: no stretch, reduced bottom padding) -->
     <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
       <div
-        style="background: linear-gradient(145deg, rgba(61,40,81,0.70) 0%, rgba(98,64,130,0.75) 100%), url('assets/images/oophorectomy.png'); background-size: cover; background-position: center; border-radius:24px; padding:45px; position:relative; overflow:hidden; height:100%;">
+        class="bg-image-responsive-oophorectomy"
+        style="background: linear-gradient(145deg, rgba(61,40,81,0.70) 0%, rgba(98,64,130,0.75) 100%), url('assets/images/oophorectomy.png'); border-radius:24px; padding:45px; position:relative; overflow:hidden; height:100%; background-repeat: no-repeat;">
 
+        <!-- decorative circles -->
         <div
           style="position:absolute;top:-40px;right:-40px;width:180px;height:180px;border-radius:50%;background:rgba(255,255,255,.04);">
         </div>
-
         <div
           style="position:absolute;bottom:-40px;left:-40px;width:140px;height:140px;border-radius:50%;background:rgba(122,80,162,.12);">
         </div>
 
+        <!-- icon -->
         <div
           style="width:72px;height:72px;border-radius:18px;background:#7A50A2;display:flex;align-items:center;justify-content:center;margin-bottom:25px;box-shadow:0 10px 30px rgba(122,80,162,.35);">
           <i class="fa-solid fa-venus" style="color:#fff;font-size:30px;"></i>
         </div>
 
+        <!-- badge -->
         <span
           style="display:inline-block;background:rgba(255,255,255,.12);color:#fff;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:6px 16px;border-radius:30px;margin-bottom:18px;">
           Minimally Invasive
         </span>
 
+        <!-- heading -->
         <h3
           style="color:#fff;font-size:30px;font-weight:800;line-height:1.3;margin-bottom:22px;">
           Laparoscopic Oophorectomy
         </h3>
 
+        <!-- text -->
         <p
-          style="color:rgba(255,255,255,.88);font-size:16px;line-height:1.9;margin-bottom:0;">
+          style="color:rgba(255,255,255,.88);font-size:16px;line-height:1.6;margin-bottom:0;">
           Laparoscopic Oophorectomy is a minimally invasive surgery to remove one
           (unilateral) or both (bilateral) ovaries. It may be recommended when an
           ovary is severely affected by disease or when other treatments are not
@@ -2957,7 +3011,6 @@
 
     <!-- Right Content -->
     <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
-
       <div
         style="background:#fff;
         border:1px solid #ececec;
@@ -2965,8 +3018,6 @@
         padding:40px;
         height:100%;
         box-shadow:0 12px 35px rgba(0,0,0,.06);">
-
-       
 
         <h3
           style="color:#3d2851;
@@ -2976,107 +3027,120 @@
           Common indications include:
         </h3>
 
-        
-
         <ul class="list-unstyled mb-0">
-
-          <li
-            style="display:flex;align-items:flex-start;gap:15px;margin-bottom:18px;">
+          <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:18px;">
             <span
               style="width:34px;height:34px;border-radius:50%;background:#EAF8EF;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
               <i class="fa-solid fa-check" style="color:#5D9939;"></i>
             </span>
             <span style="color:#374151;font-size:16px;">Large or persistent ovarian cysts</span>
           </li>
-
-          <li
-            style="display:flex;align-items:flex-start;gap:15px;margin-bottom:18px;">
+          <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:18px;">
             <span
               style="width:34px;height:34px;border-radius:50%;background:#EAF8EF;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
               <i class="fa-solid fa-check" style="color:#5D9939;"></i>
             </span>
             <span style="color:#374151;font-size:16px;">Severe ovarian endometriosis</span>
           </li>
-
-          <li
-            style="display:flex;align-items:flex-start;gap:15px;margin-bottom:18px;">
+          <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:18px;">
             <span
               style="width:34px;height:34px;border-radius:50%;background:#EAF8EF;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
               <i class="fa-solid fa-check" style="color:#5D9939;"></i>
             </span>
             <span style="color:#374151;font-size:16px;">Suspicious ovarian masses or tumors</span>
           </li>
-
-          <li
-            style="display:flex;align-items:flex-start;gap:15px;margin-bottom:18px;">
+          <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:18px;">
             <span
               style="width:34px;height:34px;border-radius:50%;background:#EAF8EF;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
               <i class="fa-solid fa-check" style="color:#5D9939;"></i>
             </span>
             <span style="color:#374151;font-size:16px;">Chronic pelvic pain related to ovarian disease</span>
           </li>
-
-          <li
-            style="display:flex;align-items:flex-start;gap:15px;margin-bottom:18px;">
+          <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:18px;">
             <span
               style="width:34px;height:34px;border-radius:50%;background:#EAF8EF;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
               <i class="fa-solid fa-check" style="color:#5D9939;"></i>
             </span>
             <span style="color:#374151;font-size:16px;">Ovarian torsion requiring urgent treatment</span>
           </li>
-
-          <li
-            style="display:flex;align-items:flex-start;gap:15px;">
+          <li style="display:flex;align-items:flex-start;gap:15px;">
             <span
               style="width:34px;height:34px;border-radius:50%;background:#EAF8EF;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
               <i class="fa-solid fa-check" style="color:#5D9939;"></i>
             </span>
             <span style="color:#374151;font-size:16px;">High risk of ovarian cancer in selected patients</span>
           </li>
-
         </ul>
 
       </div>
-
     </div>
 
   </div>
 </div>
 
-      <!-- Tab 3: Laparoscopic Hysterectomy with Bilateral Salpingo-Oophorectomy -->
+<!-- 
+  Mobile-first overrides for Tab 2:
+  - On screens < 992px: remove cover/center, reduce bottom padding to eliminate blank space.
+  - On screens >= 992px: keep cover + center + original padding.
+-->
+<style>
+  /* Mobile: no image stretch, reduced bottom padding */
+  @media (max-width: 991.98px) {
+    .bg-image-responsive-oophorectomy {
+      background-size: none !important;
+      background-position: none !important;
+      padding: 30px 30px 20px 30px !important; /* less bottom padding to remove blank space */
+    }
+  }
+
+  /* Laptop and up: cover + center + original padding */
+  @media (min-width: 992px) {
+    .bg-image-responsive-oophorectomy {
+      background-size: cover !important;
+      background-position: center !important;
+      padding: 45px !important; /* keep original */
+    }
+  }
+</style>
+
+    <!-- Tab 3: Laparoscopic Hysterectomy with Bilateral Salpingo-Oophorectomy -->
 <div id="hysterectomy-tab" class="cs_surgical_tab_panel">
   <div class="row align-items-stretch g-4">
 
-    <!-- Left Content with Image Background -->
+    <!-- Left Content with Image Background (mobile-friendly: reduced bottom padding) -->
     <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
       <div
-        style="background: linear-gradient(145deg, rgba(61,40,81,0.70) 0%, rgba(98,64,130,0.75) 100%), url('assets/images/bilateral.png'); background-size: cover; background-position: center; border-radius:24px; padding:45px; position:relative; overflow:hidden; height:100%;">
+        class="bg-image-responsive"
+        style="background: linear-gradient(145deg, rgba(61,40,81,0.70) 0%, rgba(98,64,130,0.75) 100%), url('assets/images/bilateral.png'); border-radius:24px; padding:45px; position:relative; overflow:hidden; height:100%; background-repeat: no-repeat;">
 
+        <!-- decorative circles -->
         <div
           style="position:absolute;top:-40px;right:-40px;width:180px;height:180px;border-radius:50%;background:rgba(255,255,255,.04);">
         </div>
-
         <div
           style="position:absolute;bottom:-40px;left:-40px;width:140px;height:140px;border-radius:50%;background:rgba(122,80,162,.12);">
         </div>
 
+        <!-- icon -->
         <div
           style="width:72px;height:72px;border-radius:18px;background:#7A50A2;display:flex;align-items:center;justify-content:center;margin-bottom:25px;box-shadow:0 10px 30px rgba(122,80,162,.35);">
           <i class="fa-solid fa-hospital" style="color:#fff;font-size:30px;"></i>
         </div>
 
+        <!-- badge -->
         <span
           style="display:inline-block;background:rgba(255,255,255,.12);color:#fff;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:6px 16px;border-radius:30px;margin-bottom:18px;">
           Advanced Procedure
         </span>
 
+        <!-- heading -->
         <h3
           style="color:#fff;font-size:30px;font-weight:800;line-height:1.3;margin-bottom:22px;">
           Laparoscopic Hysterectomy with Bilateral Salpingo-Oophorectomy
         </h3>
-
+        <!-- text -->
         <p
-          style="color:rgba(255,255,255,.88);font-size:16px;line-height:1.9;margin-bottom:0;">
+          style="color:rgba(255,255,255,.88);font-size:16px;line-height:1.6;margin-bottom:0;">
           A laparoscopic hysterectomy with bilateral salpingo-oophorectomy may
           be recommended in selected cases when symptoms are severe and other
           treatment options have not provided adequate relief. This minimally
@@ -3089,7 +3153,6 @@
 
     <!-- Right Content -->
     <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
-
       <div
         style="background:#fff;
         border:1px solid #ececec;
@@ -3097,8 +3160,6 @@
         padding:40px;
         height:100%;
         box-shadow:0 12px 35px rgba(0,0,0,.06);">
-
-       
 
         <h3
           style="color:#3d2851;
@@ -3108,10 +3169,7 @@
           Common indications include:
         </h3>
 
-        
-
         <ul class="list-unstyled mb-0">
-
           <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:18px;">
             <span
               style="width:34px;height:34px;border-radius:50%;background:#EAF8EF;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
@@ -3119,7 +3177,6 @@
             </span>
             <span style="color:#374151;font-size:16px;">Severe endometriosis with persistent pelvic pain</span>
           </li>
-
           <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:18px;">
             <span
               style="width:34px;height:34px;border-radius:50%;background:#EAF8EF;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
@@ -3127,7 +3184,6 @@
             </span>
             <span style="color:#374151;font-size:16px;">Recurrent ovarian endometriomas (chocolate cysts)</span>
           </li>
-
           <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:18px;">
             <span
               style="width:34px;height:34px;border-radius:50%;background:#EAF8EF;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
@@ -3135,7 +3191,6 @@
             </span>
             <span style="color:#374151;font-size:16px;">Heavy menstrual bleeding affecting quality of life</span>
           </li>
-
           <li style="display:flex;align-items:flex-start;gap:15px;margin-bottom:18px;">
             <span
               style="width:34px;height:34px;border-radius:50%;background:#EAF8EF;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
@@ -3143,7 +3198,6 @@
             </span>
             <span style="color:#374151;font-size:16px;">Coexisting uterine conditions such as fibroids or adenomyosis</span>
           </li>
-
           <li style="display:flex;align-items:flex-start;gap:15px;">
             <span
               style="width:34px;height:34px;border-radius:50%;background:#EAF8EF;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
@@ -3151,15 +3205,38 @@
             </span>
             <span style="color:#374151;font-size:16px;">Extensive pelvic disease not responding to conservative treatment</span>
           </li>
-
         </ul>
 
       </div>
-
     </div>
 
   </div>
 </div>
+
+<!-- 
+  Mobile-first overrides:
+  - On screens < 992px: remove cover/center, reduce bottom padding to eliminate blank space.
+  - On screens >= 992px: keep cover + center + original padding.
+-->
+<style>
+  /* Mobile: no image stretch, reduced bottom padding */
+  @media (max-width: 991.98px) {
+    .bg-image-responsive {
+      background-size: none !important;
+      background-position: none !important;
+      padding: 30px 30px 20px 30px !important; /* less bottom padding to remove blank space */
+    }
+  }
+
+  /* Laptop and up: cover + center + original padding */
+  @media (min-width: 992px) {
+    .bg-image-responsive {
+      background-size: cover !important;
+      background-position: center !important;
+      padding: 45px !important; /* keep original */
+    }
+  }
+</style>
 
     </div>
   </div>
