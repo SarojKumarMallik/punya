@@ -1266,6 +1266,21 @@
                 </h3>
               </div>
             </div>
+
+            <!-- Location -->
+<div class="cs_header_contact ms-4">
+  <div class="cs_header_contact_icon text-accent">
+    <i class="fa-solid fa-location-dot"></i>
+  </div>
+  <div class="cs_header_contact_right">
+    <a href="https://maps.app.goo.gl/EmpTMgqE9Zcm6xeW9"
+       target="_blank"
+       style="text-decoration: none; color: inherit;">
+      <h3 class="cs_fs_14 cs_normal cs_accent_color_v1 mb-0">Basaveshwar Nagar</h3>
+      <h3 class="cs_fs_14 cs_normal cs_accent_color_v1 mb-0">Bengaluru</h3>
+    </a>
+  </div>
+</div>
             <a href="#" data-bs-toggle="modal" data-bs-target="#appointmentModal"
               class="cs_btn cs_style_1 cs_fs_16 cs_semibold cs_accent_bg_v1 cs_white_color ms-4">Book Consultation</a>
           </div>
@@ -1273,6 +1288,234 @@
       </div>
     </div>
   </header>
+
+  <style>
+ /* ===== SHOW PHONE & LOCATION NEXT TO LOGO ON MOBILE ===== */
+@media (max-width: 767px) {
+
+  /* Keep header layout intact */
+  .cs_site_header.cs_style_1 .cs_main_header_in {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+  }
+
+  /* Left side - Logo area */
+  .cs_site_header.cs_style_1 .cs_main_header_left {
+    display: flex !important;
+    align-items: center !important;
+    flex: 0 0 auto !important;
+    margin-right: 6px !important;
+  }
+
+  .cs_site_branding img {
+    width: 50px !important;
+    height: auto !important;
+  }
+
+  /* Right side - Show Phone, Location, Button */
+  .cs_site_header.cs_style_1 .cs_main_header_right {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    flex: 1 !important;
+    gap: 6px !important;
+    padding-right: 35px !important; /* Space for three bars menu */
+  }
+
+  /* Contact items */
+  .cs_site_header.cs_style_1 .cs_header_contact {
+    display: flex !important;
+    align-items: center !important;
+    gap: 3px !important;
+    margin-left: 0 !important;
+  }
+
+  /* Hide "Need help?" text */
+  .cs_site_header.cs_style_1 .cs_header_contact .cs_header_contact_right h3:first-child {
+    display: none !important;
+  }
+
+  /* Phone number and location text */
+  .cs_site_header.cs_style_1 .cs_header_contact .cs_header_contact_right {
+    display: flex !important;
+    flex-direction: column !important;
+    line-height: 1.1 !important;
+  }
+
+  .cs_site_header.cs_style_1 .cs_header_contact .cs_header_contact_right h3,
+  .cs_site_header.cs_style_1 .cs_header_contact .cs_header_contact_right .cs_fs_14,
+  .cs_site_header.cs_style_1 .cs_header_contact .cs_header_contact_right a {
+    font-size: 10px !important;
+    font-weight: 600 !important;
+    margin-bottom: 0 !important;
+    line-height: 1.2 !important;
+    color: #002935 !important;
+  }
+
+  /* FULL LOCATION - show on single line */
+  .cs_site_header.cs_style_1 .cs_header_contact.ms-4 .cs_header_contact_right {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 3px !important;
+    white-space: nowrap !important;
+  }
+
+  .cs_site_header.cs_style_1 .cs_header_contact.ms-4 .cs_header_contact_right h3 {
+    font-size: 10px !important;
+    display: inline !important;
+    white-space: nowrap !important;
+  }
+
+  .cs_site_header.cs_style_1 .cs_header_contact.ms-4 .cs_header_contact_right h3:first-child::after {
+    content: ",";
+    margin-right: 2px;
+  }
+
+  .cs_site_header.cs_style_1 .cs_header_contact.ms-4 .cs_header_contact_right a {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 2px !important;
+    white-space: nowrap !important;
+  }
+
+  /* Contact icons */
+  .cs_site_header.cs_style_1 .cs_header_contact .cs_header_contact_icon {
+    width: 18px !important;
+    height: 18px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-right: 2px !important;
+    flex-shrink: 0 !important;
+  }
+
+  .cs_site_header.cs_style_1 .cs_header_contact .cs_header_contact_icon img,
+  .cs_site_header.cs_style_1 .cs_header_contact .cs_header_contact_icon i {
+    width: 14px !important;
+    height: 14px !important;
+    font-size: 14px !important;
+  }
+
+  .cs_site_header.cs_style_1 .cs_header_contact .cs_header_contact_icon i {
+    color: #7A50A2 !important;
+  }
+
+  /* Location specific */
+  .cs_site_header.cs_style_1 .cs_header_contact.ms-4 {
+    margin-left: 6px !important;
+  }
+
+  /* Keep Book Consultation button visible with text */
+  .cs_site_header.cs_style_1 .cs_main_header_right .cs_btn {
+    padding: 4px 8px !important;
+    font-size: 9px !important;
+    margin-left: 6px !important;
+    border-radius: 5px !important;
+    background-color: #7A50A2 !important;
+    color: #fff !important;
+    border: none !important;
+    white-space: nowrap !important;
+    height: auto !important;
+  }
+
+  .cs_site_header.cs_style_1 .cs_main_header_right .cs_btn span {
+    display: inline !important;
+    font-size: 8px !important;
+  }
+
+  .cs_site_header.cs_style_1 .cs_main_header_right .cs_btn i {
+    font-size: 10px !important;
+    margin-right: 3px !important;
+    color: #fff !important;
+  }
+
+  /* Divider between phone and location */
+  .cs_site_header.cs_style_1 .cs_header_contact:not(:last-child)::after {
+    content: "|";
+    color: #ccc;
+    margin-left: 4px;
+    font-size: 11px;
+    font-weight: 300;
+  }
+
+  /* Keep three bars menu intact */
+  .cs_site_header.cs_style_1 .cs_menu_toggle {
+    display: block !important;
+    position: absolute !important;
+    right: 8px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    margin-top: 0 !important;
+    z-index: 999 !important;
+  }
+
+  .cs_site_header.cs_style_1 .cs_menu_toggle span,
+  .cs_site_header.cs_style_1 .cs_menu_toggle span:before,
+  .cs_site_header.cs_style_1 .cs_menu_toggle span:after {
+    background-color: #002935 !important;
+  }
+
+  /* Keep navigation as is */
+  .cs_site_header.cs_style_1 .cs_nav {
+    display: block !important;
+  }
+}
+
+/* ===== EXTRA SMALL SCREENS (below 400px) ===== */
+@media (max-width: 399px) {
+  .cs_site_branding img {
+    width: 40px !important;
+  }
+
+  .cs_site_header.cs_style_1 .cs_header_contact .cs_header_contact_right h3,
+  .cs_site_header.cs_style_1 .cs_header_contact .cs_header_contact_right .cs_fs_14,
+  .cs_site_header.cs_style_1 .cs_header_contact .cs_header_contact_right a {
+    font-size: 8px !important;
+  }
+
+  .cs_site_header.cs_style_1 .cs_header_contact.ms-4 .cs_header_contact_right h3 {
+    font-size: 8px !important;
+  }
+
+  .cs_site_header.cs_style_1 .cs_header_contact .cs_header_contact_icon {
+    width: 14px !important;
+    height: 14px !important;
+  }
+
+  .cs_site_header.cs_style_1 .cs_header_contact .cs_header_contact_icon img,
+  .cs_site_header.cs_style_1 .cs_header_contact .cs_header_contact_icon i {
+    width: 11px !important;
+    height: 11px !important;
+    font-size: 11px !important;
+  }
+
+  .cs_site_header.cs_style_1 .cs_main_header_right .cs_btn {
+    padding: 3px 6px !important;
+    font-size: 7px !important;
+  }
+
+  .cs_site_header.cs_style_1 .cs_main_header_right .cs_btn span {
+    font-size: 7px !important;
+  }
+
+  .cs_site_header.cs_style_1 .cs_main_header_right {
+    padding-right: 60px !important;
+    gap: 4px !important;
+  }
+
+  .cs_site_header.cs_style_1 .cs_header_contact.ms-4 {
+    margin-left: 4px !important;
+  }
+
+  .cs_site_header.cs_style_1 .cs_header_contact:not(:last-child)::after {
+    font-size: 8px !important;
+    margin-left: 2px !important;
+  }
+}
+  </style>
   <!-- End Header Section -->
   <!-- Start Hero Section -->
   <section class="cs_hero cs_style_1 position-relative" id="home">
